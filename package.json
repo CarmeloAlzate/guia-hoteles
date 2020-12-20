@@ -1,0 +1,23 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "proyecto estudio bootstrap 4",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarmeloAlzate/guia-hoteles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarmeloAlzate/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/CarmeloAlzate/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
