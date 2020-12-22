@@ -46,8 +46,51 @@
             </ol>
         </nav>
         <p>
-            <h3>CONTACTOS</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos earum voluptatibus officiis sed dolore, praesentium animi illo, consectetur voluptatum maxime maiores aut tenetur iusto in veniam. Aspernatur molestiae ipsam error?</p>
+            <section>
+            <h3>CONTACTO</h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="nom">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="ape">Apellido:</label>
+                        <input type="text" class="form-control" id="ape" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" class="form-control" id="mail" placeholder="Ingrese su Correo">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="dir">Domicilio:</label>
+                        <input type="text" class="form-control" id="dir" placeholder="Ingrese su dirección">
+                    </div>
+                    <div class="form-group col-sm-3">
+                        <label for="dept">Departamento:</label>
+                        <select  id="dept" class="form-control">
+                            <option selected>Antioquia</option>
+                            <option >Cundinamarca</option>
+                            <option >Valle del Cauca</option>
+                            <option >Santander</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" class="form-control" rows="10"></textarea>
+                </div>
+                <div class="form-group">                
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label for="gridCheck" class="form-check-label">Quiero que me contacten</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+            </section>
         </p>
         </div>
     <footer >
