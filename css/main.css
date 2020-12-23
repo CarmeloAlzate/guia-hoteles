@@ -14,15 +14,13 @@ footer{
 }
 
 .tarjeta{
-    flex: 1 150px;
-    padding: 2px 5px 2px 5px;
-    border: 2px;
-    border-style: solid;
+    flex: 1 200px;
+    margin-top: 10px;
 }
 
 .btn-reserva{
     width: 100%;
-    justify-content: space-between;
+    border-radius: 0px;
 
 }
 
